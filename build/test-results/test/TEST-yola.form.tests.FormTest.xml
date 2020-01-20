@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="yola.form.tests.FormTest" tests="17" skipped="0" failures="5" errors="0" timestamp="2020-01-20T04:19:12" hostname="nata-Inspiron" time="83.089">
+  <properties/>
+  <testcase name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes[0](plainaddress)" classname="yola.form.tests.FormTest" time="1.31"/>
+  <testcase name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes[1](#@%^%#$@#$@#.com)" classname="yola.form.tests.FormTest" time="1.137"/>
+  <testcase name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes[2](@domain.com)" classname="yola.form.tests.FormTest" time="1.206"/>
+  <testcase name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes[3](email.domain.com)" classname="yola.form.tests.FormTest" time="1.012"/>
+  <testcase name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes[4](email@domain@domain.com)" classname="yola.form.tests.FormTest" time="1.1"/>
+  <testcase name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes[5](.email@domain.com)" classname="yola.form.tests.FormTest" time="6.009">
+    <failure message="Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}&#10;Element: '&lt;div class=&quot;freebirdFormviewerViewResponseConfirmationMessage&quot;&gt;Вашу відповідь було записано.&lt;/div&gt;'&#10;Actual value: visible:true&#10;Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579493973613.0.png&#10;Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579493973613.0.html&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShouldNot">Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}
+Element: '&lt;div class=&quot;freebirdFormviewerViewResponseConfirmationMessage&quot;&gt;Вашу відповідь було записано.&lt;/div&gt;'
+Actual value: visible:true
+Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579493973613.0.png
+Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579493973613.0.html
+Timeout: 4 s.
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:69)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:24)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:10)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:145)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+	at com.sun.proxy.$Proxy12.shouldNotBe(Unknown Source)
+	at yola.form.pageobjects.FormPage.assertResponseHasBeenRecordedMessageNotShown(FormPage.java:115)
+	at yola.form.tests.FormTest.testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(FormTest.java:180)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</failure>
+  </testcase>
+  <testcase name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes[6](email.@domain.com)" classname="yola.form.tests.FormTest" time="5.973">
+    <failure message="Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}&#10;Element: '&lt;div class=&quot;freebirdFormviewerViewResponseConfirmationMessage&quot;&gt;Вашу відповідь було записано.&lt;/div&gt;'&#10;Actual value: visible:true&#10;Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579493981994.1.png&#10;Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579493981994.1.html&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShouldNot">Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}
+Element: '&lt;div class=&quot;freebirdFormviewerViewResponseConfirmationMessage&quot;&gt;Вашу відповідь було записано.&lt;/div&gt;'
+Actual value: visible:true
+Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579493981994.1.png
+Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579493981994.1.html
+Timeout: 4 s.
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:69)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:24)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:10)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:145)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+	at com.sun.proxy.$Proxy12.shouldNotBe(Unknown Source)
+	at yola.form.pageobjects.FormPage.assertResponseHasBeenRecordedMessageNotShown(FormPage.java:115)
+	at yola.form.tests.FormTest.testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(FormTest.java:180)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</failure>
+  </testcase>
+  <testcase name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes[7](email..email@domain.com)" classname="yola.form.tests.FormTest" time="1.747"/>
+  <testcase name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes[8](あいうえお@domain.com)" classname="yola.form.tests.FormTest" time="1.175"/>
+  <testcase name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes[9](email@domain.com (Joe Smith))" classname="yola.form.tests.FormTest" time="1.225"/>
+  <testcase name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes[10](email@domain)" classname="yola.form.tests.FormTest" time="0.968"/>
+  <testcase name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes[11](email@-domain.com)" classname="yola.form.tests.FormTest" time="5.906">
+    <failure message="Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}&#10;Element: '&lt;div class=&quot;freebirdFormviewerViewResponseConfirmationMessage&quot;&gt;Вашу відповідь було записано.&lt;/div&gt;'&#10;Actual value: visible:true&#10;Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494007208.2.png&#10;Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494007208.2.html&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShouldNot">Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}
+Element: '&lt;div class=&quot;freebirdFormviewerViewResponseConfirmationMessage&quot;&gt;Вашу відповідь було записано.&lt;/div&gt;'
+Actual value: visible:true
+Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494007208.2.png
+Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494007208.2.html
+Timeout: 4 s.
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:69)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:24)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:10)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:145)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+	at com.sun.proxy.$Proxy12.shouldNotBe(Unknown Source)
+	at yola.form.pageobjects.FormPage.assertResponseHasBeenRecordedMessageNotShown(FormPage.java:115)
+	at yola.form.tests.FormTest.testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(FormTest.java:180)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</failure>
+  </testcase>
+  <testcase name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes[12](email@111.222.333.44444444)" classname="yola.form.tests.FormTest" time="6.142">
+    <failure message="Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}&#10;Element: '&lt;div class=&quot;freebirdFormviewerViewResponseConfirmationMessage&quot;&gt;Вашу відповідь було записано.&lt;/div&gt;'&#10;Actual value: visible:true&#10;Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494015538.3.png&#10;Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494015538.3.html&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShouldNot">Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}
+Element: '&lt;div class=&quot;freebirdFormviewerViewResponseConfirmationMessage&quot;&gt;Вашу відповідь було записано.&lt;/div&gt;'
+Actual value: visible:true
+Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494015538.3.png
+Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494015538.3.html
+Timeout: 4 s.
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:69)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:24)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:10)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:145)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+	at com.sun.proxy.$Proxy12.shouldNotBe(Unknown Source)
+	at yola.form.pageobjects.FormPage.assertResponseHasBeenRecordedMessageNotShown(FormPage.java:115)
+	at yola.form.tests.FormTest.testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(FormTest.java:180)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</failure>
+  </testcase>
+  <testcase name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes[13](email@domain..com)" classname="yola.form.tests.FormTest" time="1.03"/>
+  <testcase name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes[14]( )" classname="yola.form.tests.FormTest" time="1.0"/>
+  <testcase name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes[15](.@example.com)" classname="yola.form.tests.FormTest" time="5.834">
+    <failure message="Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}&#10;Element: '&lt;div class=&quot;freebirdFormviewerViewResponseConfirmationMessage&quot;&gt;Вашу відповідь було записано.&lt;/div&gt;'&#10;Actual value: visible:true&#10;Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494032450.4.png&#10;Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494032450.4.html&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShouldNot">Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}
+Element: '&lt;div class=&quot;freebirdFormviewerViewResponseConfirmationMessage&quot;&gt;Вашу відповідь було записано.&lt;/div&gt;'
+Actual value: visible:true
+Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494032450.4.png
+Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494032450.4.html
+Timeout: 4 s.
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:69)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:24)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:10)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:145)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+	at com.sun.proxy.$Proxy12.shouldNotBe(Unknown Source)
+	at yola.form.pageobjects.FormPage.assertResponseHasBeenRecordedMessageNotShown(FormPage.java:115)
+	at yola.form.tests.FormTest.testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(FormTest.java:180)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</failure>
+  </testcase>
+  <testcase name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes[16](Ima Fool@example.com)" classname="yola.form.tests.FormTest" time="1.144"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Jan 20, 2020 6:19:10 AM com.codeborne.selenide.impl.WebDriverThreadLocalContainer getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 13 - let's create a new webdriver
+Jan 20, 2020 6:19:10 AM io.github.bonigarcia.wdm.WebDriverManager detectDriverVersionFromBrowser
+INFO: Using chromedriver 79.0.3945.36 (since Google Chrome 79 is installed in your machine)
+Jan 20, 2020 6:19:10 AM io.github.bonigarcia.wdm.WebDriverManager exportDriver
+INFO: Exporting webdriver.chrome.driver as /home/natasha/.m2/repository/webdriver/chromedriver/linux64/79.0.3945.36/chromedriver
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 17770
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 20, 2020 6:19:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 20, 2020 6:19:11 AM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+Jan 20, 2020 6:19:11 AM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=79.0.3945.130 Platform=LINUX
+Jan 20, 2020 6:19:11 AM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.6.1
+Jan 20, 2020 6:19:11 AM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+Jan 20, 2020 6:19:11 AM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 13: ChromeDriver -> ChromeDriver: chrome on LINUX (e83a8f4ef5b1f09a656c2a0f9f7f8bb1)
+Jan 20, 2020 6:19:14 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Close webdriver: 13 -> ChromeDriver: chrome on LINUX (e83a8f4ef5b1f09a656c2a0f9f7f8bb1)
+Jan 20, 2020 6:19:14 AM com.codeborne.selenide.drivercommands.CloseDriverCommand close
+INFO: Trying to close the browser ChromeDriver ...
+Jan 20, 2020 6:19:14 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Closed webdriver 13 in 82 ms
+Jan 20, 2020 6:19:14 AM com.codeborne.selenide.impl.WebDriverThreadLocalContainer getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 13 - let's create a new webdriver
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 6991
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 20, 2020 6:19:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 20, 2020 6:19:15 AM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+Jan 20, 2020 6:19:15 AM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=79.0.3945.130 Platform=LINUX
+Jan 20, 2020 6:19:15 AM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.6.1
+Jan 20, 2020 6:19:15 AM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+Jan 20, 2020 6:19:15 AM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 13: ChromeDriver -> ChromeDriver: chrome on LINUX (29f4542e98c387ad31d658360c30026f)
+Jan 20, 2020 6:19:17 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Close webdriver: 13 -> ChromeDriver: chrome on LINUX (29f4542e98c387ad31d658360c30026f)
+Jan 20, 2020 6:19:17 AM com.codeborne.selenide.drivercommands.CloseDriverCommand close
+INFO: Trying to close the browser ChromeDriver ...
+Jan 20, 2020 6:19:17 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Closed webdriver 13 in 69 ms
+Jan 20, 2020 6:19:17 AM com.codeborne.selenide.impl.WebDriverThreadLocalContainer getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 13 - let's create a new webdriver
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 1957
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 20, 2020 6:19:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 20, 2020 6:19:18 AM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+Jan 20, 2020 6:19:18 AM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=79.0.3945.130 Platform=LINUX
+Jan 20, 2020 6:19:18 AM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.6.1
+Jan 20, 2020 6:19:18 AM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+Jan 20, 2020 6:19:18 AM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 13: ChromeDriver -> ChromeDriver: chrome on LINUX (052700dc80f3e06f07a383ac45f1e15b)
+Jan 20, 2020 6:19:20 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Close webdriver: 13 -> ChromeDriver: chrome on LINUX (052700dc80f3e06f07a383ac45f1e15b)
+Jan 20, 2020 6:19:20 AM com.codeborne.selenide.drivercommands.CloseDriverCommand close
+INFO: Trying to close the browser ChromeDriver ...
+Jan 20, 2020 6:19:20 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Closed webdriver 13 in 69 ms
+Jan 20, 2020 6:19:20 AM com.codeborne.selenide.impl.WebDriverThreadLocalContainer getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 13 - let's create a new webdriver
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 13526
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 20, 2020 6:19:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 20, 2020 6:19:21 AM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+Jan 20, 2020 6:19:21 AM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=79.0.3945.130 Platform=LINUX
+Jan 20, 2020 6:19:21 AM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.6.1
+Jan 20, 2020 6:19:21 AM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+Jan 20, 2020 6:19:21 AM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 13: ChromeDriver -> ChromeDriver: chrome on LINUX (36068799bdfdfb8adb43a56f222c30c8)
+Jan 20, 2020 6:19:23 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Close webdriver: 13 -> ChromeDriver: chrome on LINUX (36068799bdfdfb8adb43a56f222c30c8)
+Jan 20, 2020 6:19:23 AM com.codeborne.selenide.drivercommands.CloseDriverCommand close
+INFO: Trying to close the browser ChromeDriver ...
+Jan 20, 2020 6:19:23 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Closed webdriver 13 in 73 ms
+Jan 20, 2020 6:19:23 AM com.codeborne.selenide.impl.WebDriverThreadLocalContainer getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 13 - let's create a new webdriver
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 20917
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 20, 2020 6:19:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 20, 2020 6:19:23 AM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+Jan 20, 2020 6:19:23 AM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=79.0.3945.130 Platform=LINUX
+Jan 20, 2020 6:19:23 AM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.6.1
+Jan 20, 2020 6:19:23 AM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+Jan 20, 2020 6:19:23 AM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 13: ChromeDriver -> ChromeDriver: chrome on LINUX (8e2002a52112066c13478a0ccd27fd8f)
+Jan 20, 2020 6:19:26 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Close webdriver: 13 -> ChromeDriver: chrome on LINUX (8e2002a52112066c13478a0ccd27fd8f)
+Jan 20, 2020 6:19:26 AM com.codeborne.selenide.drivercommands.CloseDriverCommand close
+INFO: Trying to close the browser ChromeDriver ...
+Jan 20, 2020 6:19:26 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Closed webdriver 13 in 69 ms
+Jan 20, 2020 6:19:26 AM com.codeborne.selenide.impl.WebDriverThreadLocalContainer getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 13 - let's create a new webdriver
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 16003
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 20, 2020 6:19:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 20, 2020 6:19:26 AM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+Jan 20, 2020 6:19:26 AM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=79.0.3945.130 Platform=LINUX
+Jan 20, 2020 6:19:26 AM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.6.1
+Jan 20, 2020 6:19:26 AM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+Jan 20, 2020 6:19:26 AM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 13: ChromeDriver -> ChromeDriver: chrome on LINUX (eb4abec6685944af47d764db2dd06673)
+Jan 20, 2020 6:19:33 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Close webdriver: 13 -> ChromeDriver: chrome on LINUX (eb4abec6685944af47d764db2dd06673)
+Jan 20, 2020 6:19:33 AM com.codeborne.selenide.drivercommands.CloseDriverCommand close
+INFO: Trying to close the browser ChromeDriver ...
+Jan 20, 2020 6:19:33 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Closed webdriver 13 in 69 ms
+Jan 20, 2020 6:19:33 AM com.codeborne.selenide.impl.WebDriverThreadLocalContainer getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 13 - let's create a new webdriver
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 20933
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 20, 2020 6:19:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 20, 2020 6:19:34 AM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+Jan 20, 2020 6:19:34 AM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=79.0.3945.130 Platform=LINUX
+Jan 20, 2020 6:19:34 AM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.6.1
+Jan 20, 2020 6:19:34 AM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+Jan 20, 2020 6:19:34 AM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 13: ChromeDriver -> ChromeDriver: chrome on LINUX (e9dcf000d85083258ab315e881bf50db)
+Jan 20, 2020 6:19:42 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Close webdriver: 13 -> ChromeDriver: chrome on LINUX (e9dcf000d85083258ab315e881bf50db)
+Jan 20, 2020 6:19:42 AM com.codeborne.selenide.drivercommands.CloseDriverCommand close
+INFO: Trying to close the browser ChromeDriver ...
+Jan 20, 2020 6:19:42 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Closed webdriver 13 in 71 ms
+Jan 20, 2020 6:19:42 AM com.codeborne.selenide.impl.WebDriverThreadLocalContainer getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 13 - let's create a new webdriver
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 32047
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 20, 2020 6:19:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 20, 2020 6:19:43 AM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+Jan 20, 2020 6:19:43 AM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=79.0.3945.130 Platform=LINUX
+Jan 20, 2020 6:19:43 AM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.6.1
+Jan 20, 2020 6:19:43 AM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+Jan 20, 2020 6:19:43 AM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 13: ChromeDriver -> ChromeDriver: chrome on LINUX (f4853ea5fe72805162f45b2ab185fc6c)
+Jan 20, 2020 6:19:46 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Close webdriver: 13 -> ChromeDriver: chrome on LINUX (f4853ea5fe72805162f45b2ab185fc6c)
+Jan 20, 2020 6:19:46 AM com.codeborne.selenide.drivercommands.CloseDriverCommand close
+INFO: Trying to close the browser ChromeDriver ...
+Jan 20, 2020 6:19:46 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Closed webdriver 13 in 68 ms
+Jan 20, 2020 6:19:46 AM com.codeborne.selenide.impl.WebDriverThreadLocalContainer getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 13 - let's create a new webdriver
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 16305
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 20, 2020 6:19:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 20, 2020 6:19:47 AM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+Jan 20, 2020 6:19:47 AM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=79.0.3945.130 Platform=LINUX
+Jan 20, 2020 6:19:47 AM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.6.1
+Jan 20, 2020 6:19:47 AM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+Jan 20, 2020 6:19:47 AM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 13: ChromeDriver -> ChromeDriver: chrome on LINUX (5b49ed85872f15e3cbeaa5e340f91aae)
+Jan 20, 2020 6:19:53 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Close webdriver: 13 -> ChromeDriver: chrome on LINUX (5b49ed85872f15e3cbeaa5e340f91aae)
+Jan 20, 2020 6:19:53 AM com.codeborne.selenide.drivercommands.CloseDriverCommand close
+INFO: Trying to close the browser ChromeDriver ...
+Jan 20, 2020 6:19:53 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Closed webdriver 13 in 70 ms
+Jan 20, 2020 6:19:53 AM com.codeborne.selenide.impl.WebDriverThreadLocalContainer getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 13 - let's create a new webdriver
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 30263
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 20, 2020 6:19:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 20, 2020 6:19:54 AM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+Jan 20, 2020 6:19:54 AM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=79.0.3945.130 Platform=LINUX
+Jan 20, 2020 6:19:54 AM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.6.1
+Jan 20, 2020 6:19:54 AM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+Jan 20, 2020 6:19:54 AM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 13: ChromeDriver -> ChromeDriver: chrome on LINUX (2086a6ea7a202118551859b24cca2742)
+Jan 20, 2020 6:19:56 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Close webdriver: 13 -> ChromeDriver: chrome on LINUX (2086a6ea7a202118551859b24cca2742)
+Jan 20, 2020 6:19:56 AM com.codeborne.selenide.drivercommands.CloseDriverCommand close
+INFO: Trying to close the browser ChromeDriver ...
+Jan 20, 2020 6:19:56 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Closed webdriver 13 in 69 ms
+Jan 20, 2020 6:19:56 AM com.codeborne.selenide.impl.WebDriverThreadLocalContainer getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 13 - let's create a new webdriver
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 19773
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 20, 2020 6:19:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 20, 2020 6:19:57 AM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+Jan 20, 2020 6:19:57 AM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=79.0.3945.130 Platform=LINUX
+Jan 20, 2020 6:19:57 AM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.6.1
+Jan 20, 2020 6:19:57 AM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+Jan 20, 2020 6:19:57 AM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 13: ChromeDriver -> ChromeDriver: chrome on LINUX (c9a383f2589b2f3009964c97ce846f14)
+Jan 20, 2020 6:19:59 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Close webdriver: 13 -> ChromeDriver: chrome on LINUX (c9a383f2589b2f3009964c97ce846f14)
+Jan 20, 2020 6:19:59 AM com.codeborne.selenide.drivercommands.CloseDriverCommand close
+INFO: Trying to close the browser ChromeDriver ...
+Jan 20, 2020 6:19:59 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Closed webdriver 13 in 69 ms
+Jan 20, 2020 6:19:59 AM com.codeborne.selenide.impl.WebDriverThreadLocalContainer getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 13 - let's create a new webdriver
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 27675
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 20, 2020 6:20:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 20, 2020 6:20:00 AM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+Jan 20, 2020 6:20:00 AM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=79.0.3945.130 Platform=LINUX
+Jan 20, 2020 6:20:00 AM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.6.1
+Jan 20, 2020 6:20:00 AM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+Jan 20, 2020 6:20:00 AM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 13: ChromeDriver -> ChromeDriver: chrome on LINUX (97760013663928839757cfa7bf47939c)
+Jan 20, 2020 6:20:07 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Close webdriver: 13 -> ChromeDriver: chrome on LINUX (97760013663928839757cfa7bf47939c)
+Jan 20, 2020 6:20:07 AM com.codeborne.selenide.drivercommands.CloseDriverCommand close
+INFO: Trying to close the browser ChromeDriver ...
+Jan 20, 2020 6:20:07 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Closed webdriver 13 in 68 ms
+Jan 20, 2020 6:20:07 AM com.codeborne.selenide.impl.WebDriverThreadLocalContainer getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 13 - let's create a new webdriver
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 8657
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 20, 2020 6:20:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 20, 2020 6:20:08 AM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+Jan 20, 2020 6:20:08 AM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=79.0.3945.130 Platform=LINUX
+Jan 20, 2020 6:20:08 AM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.6.1
+Jan 20, 2020 6:20:08 AM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+Jan 20, 2020 6:20:08 AM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 13: ChromeDriver -> ChromeDriver: chrome on LINUX (b3a4329176b7853329ca6d0321f81132)
+Jan 20, 2020 6:20:15 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Close webdriver: 13 -> ChromeDriver: chrome on LINUX (b3a4329176b7853329ca6d0321f81132)
+Jan 20, 2020 6:20:15 AM com.codeborne.selenide.drivercommands.CloseDriverCommand close
+INFO: Trying to close the browser ChromeDriver ...
+Jan 20, 2020 6:20:15 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Closed webdriver 13 in 69 ms
+Jan 20, 2020 6:20:15 AM com.codeborne.selenide.impl.WebDriverThreadLocalContainer getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 13 - let's create a new webdriver
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 19484
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 20, 2020 6:20:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 20, 2020 6:20:16 AM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+Jan 20, 2020 6:20:16 AM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=79.0.3945.130 Platform=LINUX
+Jan 20, 2020 6:20:16 AM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.6.1
+Jan 20, 2020 6:20:16 AM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+Jan 20, 2020 6:20:16 AM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 13: ChromeDriver -> ChromeDriver: chrome on LINUX (2978c28de0b4334682fadd1328e0df96)
+Jan 20, 2020 6:20:22 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Close webdriver: 13 -> ChromeDriver: chrome on LINUX (2978c28de0b4334682fadd1328e0df96)
+Jan 20, 2020 6:20:22 AM com.codeborne.selenide.drivercommands.CloseDriverCommand close
+INFO: Trying to close the browser ChromeDriver ...
+Jan 20, 2020 6:20:22 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Closed webdriver 13 in 68 ms
+Jan 20, 2020 6:20:22 AM com.codeborne.selenide.impl.WebDriverThreadLocalContainer getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 13 - let's create a new webdriver
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 26544
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 20, 2020 6:20:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 20, 2020 6:20:22 AM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+Jan 20, 2020 6:20:22 AM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=79.0.3945.130 Platform=LINUX
+Jan 20, 2020 6:20:22 AM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.6.1
+Jan 20, 2020 6:20:22 AM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+Jan 20, 2020 6:20:22 AM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 13: ChromeDriver -> ChromeDriver: chrome on LINUX (6dbaa759dcc3b50b6d6c7a1b8ea8a76c)
+Jan 20, 2020 6:20:24 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Close webdriver: 13 -> ChromeDriver: chrome on LINUX (6dbaa759dcc3b50b6d6c7a1b8ea8a76c)
+Jan 20, 2020 6:20:24 AM com.codeborne.selenide.drivercommands.CloseDriverCommand close
+INFO: Trying to close the browser ChromeDriver ...
+Jan 20, 2020 6:20:25 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Closed webdriver 13 in 68 ms
+Jan 20, 2020 6:20:25 AM com.codeborne.selenide.impl.WebDriverThreadLocalContainer getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 13 - let's create a new webdriver
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 30051
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 20, 2020 6:20:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 20, 2020 6:20:25 AM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+Jan 20, 2020 6:20:25 AM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=79.0.3945.130 Platform=LINUX
+Jan 20, 2020 6:20:25 AM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.6.1
+Jan 20, 2020 6:20:25 AM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+Jan 20, 2020 6:20:25 AM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 13: ChromeDriver -> ChromeDriver: chrome on LINUX (8b30a26ac83854fc1a3244004cd5546e)
+Jan 20, 2020 6:20:32 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Close webdriver: 13 -> ChromeDriver: chrome on LINUX (8b30a26ac83854fc1a3244004cd5546e)
+Jan 20, 2020 6:20:32 AM com.codeborne.selenide.drivercommands.CloseDriverCommand close
+INFO: Trying to close the browser ChromeDriver ...
+Jan 20, 2020 6:20:32 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Closed webdriver 13 in 68 ms
+Jan 20, 2020 6:20:32 AM com.codeborne.selenide.impl.WebDriverThreadLocalContainer getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 13 - let's create a new webdriver
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 7540
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 20, 2020 6:20:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 20, 2020 6:20:33 AM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+Jan 20, 2020 6:20:33 AM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=79.0.3945.130 Platform=LINUX
+Jan 20, 2020 6:20:33 AM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.6.1
+Jan 20, 2020 6:20:33 AM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+Jan 20, 2020 6:20:33 AM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 13: ChromeDriver -> ChromeDriver: chrome on LINUX (5c081d1d7e7cba2e4ba1abbb66bb31cd)
+Jan 20, 2020 6:20:35 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Close webdriver: 13 -> ChromeDriver: chrome on LINUX (5c081d1d7e7cba2e4ba1abbb66bb31cd)
+Jan 20, 2020 6:20:35 AM com.codeborne.selenide.drivercommands.CloseDriverCommand close
+INFO: Trying to close the browser ChromeDriver ...
+Jan 20, 2020 6:20:36 AM com.codeborne.selenide.drivercommands.CloseDriverCommand closeAsync
+INFO: Closed webdriver 13 in 71 ms
+]]></system-err>
+</testsuite>

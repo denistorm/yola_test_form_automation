@@ -1,0 +1,37 @@
+plugins {
+    //id "io.qameta.allure" version '2.8.1'
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.codeborne:selenide:5.6.1'
+    //compile group: 'io.qameta.allure', name: 'allure-selenide', version: '2.13.1'
+    compile 'org.testng:testng:6.14.3'
+    compile group: 'org.slf4j', name: 'slf4j-jdk14', version: '1.7.28'
+}
+
+test {
+    useTestNG{
+        useDefaultListeners = true
+        //suites "src/test/java/yola/form/tests/testng.xml"
+    }
+}
+
+//allure {
+//    autoconfigure = true
+//    version = '2.4.1'
+//    configuration = 'compile'
+//
+//    useJUnit5 {
+//        version = '2.13.0'
+//    }
+//}

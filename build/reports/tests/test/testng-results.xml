@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="12" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-01-20T04:19:10Z" name="Gradle suite" finished-at="2020-01-20T04:20:36Z" duration-ms="85894">
+    <groups>
+    </groups>
+    <test started-at="2020-01-20T04:19:10Z" name="Gradle test" finished-at="2020-01-20T04:20:36Z" duration-ms="85894">
+      <class name="yola.form.tests.FormTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:10Z" name="setUp" finished-at="2020-01-20T04:19:12Z" duration-ms="2703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(java.lang.String)[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:12Z" name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes" description="The form is not submitted when Email address input field contains invalid mailboxes" data-provider="invalid_emails" finished-at="2020-01-20T04:19:14Z" duration-ms="1310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[plainaddress]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:14Z" name="tearDown" finished-at="2020-01-20T04:19:14Z" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:14Z" name="setUp" finished-at="2020-01-20T04:19:16Z" duration-ms="2254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(java.lang.String)[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:16Z" name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes" description="The form is not submitted when Email address input field contains invalid mailboxes" data-provider="invalid_emails" finished-at="2020-01-20T04:19:17Z" duration-ms="1137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[#@%^%#$@#$@#.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:17Z" name="tearDown" finished-at="2020-01-20T04:19:17Z" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:17Z" name="setUp" finished-at="2020-01-20T04:19:19Z" duration-ms="1606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(java.lang.String)[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:19Z" name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes" description="The form is not submitted when Email address input field contains invalid mailboxes" data-provider="invalid_emails" finished-at="2020-01-20T04:19:20Z" duration-ms="1206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@domain.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:20Z" name="tearDown" finished-at="2020-01-20T04:19:20Z" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:20Z" name="setUp" finished-at="2020-01-20T04:19:22Z" duration-ms="1701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(java.lang.String)[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:22Z" name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes" description="The form is not submitted when Email address input field contains invalid mailboxes" data-provider="invalid_emails" finished-at="2020-01-20T04:19:23Z" duration-ms="1012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email.domain.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:23Z" name="tearDown" finished-at="2020-01-20T04:19:23Z" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:23Z" name="setUp" finished-at="2020-01-20T04:19:25Z" duration-ms="1603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(java.lang.String)[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:25Z" name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes" description="The form is not submitted when Email address input field contains invalid mailboxes" data-provider="invalid_emails" finished-at="2020-01-20T04:19:26Z" duration-ms="1100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email@domain@domain.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:26Z" name="tearDown" finished-at="2020-01-20T04:19:26Z" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:26Z" name="setUp" finished-at="2020-01-20T04:19:27Z" duration-ms="1690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(java.lang.String)[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:27Z" name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes" description="The form is not submitted when Email address input field contains invalid mailboxes" data-provider="invalid_emails" finished-at="2020-01-20T04:19:33Z" duration-ms="6009" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.email@domain.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.codeborne.selenide.ex.ElementShouldNot">
+            <message>
+              <![CDATA[Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}
+Element: '<div class="freebirdFormviewerViewResponseConfirmationMessage">Вашу відповідь було записано.</div>'
+Actual value: visible:true
+Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579493973613.0.png
+Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579493973613.0.html
+Timeout: 4 s.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}
+Element: '<div class="freebirdFormviewerViewResponseConfirmationMessage">Вашу відповідь було записано.</div>'
+Actual value: visible:true
+Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579493973613.0.png
+Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579493973613.0.html
+Timeout: 4 s.
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:69)
+at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:24)
+at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:10)
+at com.codeborne.selenide.commands.Commands.execute(Commands.java:145)
+at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+at com.sun.proxy.$Proxy12.shouldNotBe(Unknown Source)
+at yola.form.pageobjects.FormPage.assertResponseHasBeenRecordedMessageNotShown(FormPage.java:115)
+at yola.form.tests.FormTest.testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(FormTest.java:180)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+at com.sun.proxy.$Proxy2.stop(Unknown Source)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.codeborne.selenide.ex.ElementShouldNot -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:33Z" name="tearDown" finished-at="2020-01-20T04:19:33Z" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:33Z" name="setUp" finished-at="2020-01-20T04:19:36Z" duration-ms="2304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(java.lang.String)[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:36Z" name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes" description="The form is not submitted when Email address input field contains invalid mailboxes" data-provider="invalid_emails" finished-at="2020-01-20T04:19:42Z" duration-ms="5973" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email.@domain.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.codeborne.selenide.ex.ElementShouldNot">
+            <message>
+              <![CDATA[Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}
+Element: '<div class="freebirdFormviewerViewResponseConfirmationMessage">Вашу відповідь було записано.</div>'
+Actual value: visible:true
+Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579493981994.1.png
+Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579493981994.1.html
+Timeout: 4 s.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}
+Element: '<div class="freebirdFormviewerViewResponseConfirmationMessage">Вашу відповідь було записано.</div>'
+Actual value: visible:true
+Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579493981994.1.png
+Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579493981994.1.html
+Timeout: 4 s.
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:69)
+at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:24)
+at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:10)
+at com.codeborne.selenide.commands.Commands.execute(Commands.java:145)
+at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+at com.sun.proxy.$Proxy12.shouldNotBe(Unknown Source)
+at yola.form.pageobjects.FormPage.assertResponseHasBeenRecordedMessageNotShown(FormPage.java:115)
+at yola.form.tests.FormTest.testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(FormTest.java:180)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+at com.sun.proxy.$Proxy2.stop(Unknown Source)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.codeborne.selenide.ex.ElementShouldNot -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:42Z" name="tearDown" finished-at="2020-01-20T04:19:42Z" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:42Z" name="setUp" finished-at="2020-01-20T04:19:44Z" duration-ms="2663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(java.lang.String)[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:44Z" name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes" description="The form is not submitted when Email address input field contains invalid mailboxes" data-provider="invalid_emails" finished-at="2020-01-20T04:19:46Z" duration-ms="1747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email..email@domain.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:46Z" name="tearDown" finished-at="2020-01-20T04:19:46Z" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:46Z" name="setUp" finished-at="2020-01-20T04:19:52Z" duration-ms="5752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(java.lang.String)[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:52Z" name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes" description="The form is not submitted when Email address input field contains invalid mailboxes" data-provider="invalid_emails" finished-at="2020-01-20T04:19:53Z" duration-ms="1175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[あいうえお@domain.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:53Z" name="tearDown" finished-at="2020-01-20T04:19:53Z" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:53Z" name="setUp" finished-at="2020-01-20T04:19:55Z" duration-ms="1646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(java.lang.String)[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:55Z" name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes" description="The form is not submitted when Email address input field contains invalid mailboxes" data-provider="invalid_emails" finished-at="2020-01-20T04:19:56Z" duration-ms="1225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email@domain.com (Joe Smith)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:56Z" name="tearDown" finished-at="2020-01-20T04:19:56Z" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:56Z" name="setUp" finished-at="2020-01-20T04:19:58Z" duration-ms="2105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(java.lang.String)[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:58Z" name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes" description="The form is not submitted when Email address input field contains invalid mailboxes" data-provider="invalid_emails" finished-at="2020-01-20T04:19:59Z" duration-ms="968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email@domain]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:59Z" name="tearDown" finished-at="2020-01-20T04:19:59Z" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:19:59Z" name="setUp" finished-at="2020-01-20T04:20:01Z" duration-ms="1677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(java.lang.String)[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:20:01Z" name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes" description="The form is not submitted when Email address input field contains invalid mailboxes" data-provider="invalid_emails" finished-at="2020-01-20T04:20:07Z" duration-ms="5906" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email@-domain.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.codeborne.selenide.ex.ElementShouldNot">
+            <message>
+              <![CDATA[Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}
+Element: '<div class="freebirdFormviewerViewResponseConfirmationMessage">Вашу відповідь було записано.</div>'
+Actual value: visible:true
+Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494007208.2.png
+Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494007208.2.html
+Timeout: 4 s.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}
+Element: '<div class="freebirdFormviewerViewResponseConfirmationMessage">Вашу відповідь було записано.</div>'
+Actual value: visible:true
+Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494007208.2.png
+Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494007208.2.html
+Timeout: 4 s.
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:69)
+at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:24)
+at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:10)
+at com.codeborne.selenide.commands.Commands.execute(Commands.java:145)
+at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+at com.sun.proxy.$Proxy12.shouldNotBe(Unknown Source)
+at yola.form.pageobjects.FormPage.assertResponseHasBeenRecordedMessageNotShown(FormPage.java:115)
+at yola.form.tests.FormTest.testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(FormTest.java:180)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+at com.sun.proxy.$Proxy2.stop(Unknown Source)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.codeborne.selenide.ex.ElementShouldNot -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:20:07Z" name="tearDown" finished-at="2020-01-20T04:20:07Z" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:20:07Z" name="setUp" finished-at="2020-01-20T04:20:09Z" duration-ms="2131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(java.lang.String)[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:20:09Z" name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes" description="The form is not submitted when Email address input field contains invalid mailboxes" data-provider="invalid_emails" finished-at="2020-01-20T04:20:15Z" duration-ms="6142" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email@111.222.333.44444444]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.codeborne.selenide.ex.ElementShouldNot">
+            <message>
+              <![CDATA[Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}
+Element: '<div class="freebirdFormviewerViewResponseConfirmationMessage">Вашу відповідь було записано.</div>'
+Actual value: visible:true
+Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494015538.3.png
+Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494015538.3.html
+Timeout: 4 s.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}
+Element: '<div class="freebirdFormviewerViewResponseConfirmationMessage">Вашу відповідь було записано.</div>'
+Actual value: visible:true
+Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494015538.3.png
+Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494015538.3.html
+Timeout: 4 s.
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:69)
+at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:24)
+at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:10)
+at com.codeborne.selenide.commands.Commands.execute(Commands.java:145)
+at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+at com.sun.proxy.$Proxy12.shouldNotBe(Unknown Source)
+at yola.form.pageobjects.FormPage.assertResponseHasBeenRecordedMessageNotShown(FormPage.java:115)
+at yola.form.tests.FormTest.testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(FormTest.java:180)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+at com.sun.proxy.$Proxy2.stop(Unknown Source)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.codeborne.selenide.ex.ElementShouldNot -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:20:15Z" name="tearDown" finished-at="2020-01-20T04:20:15Z" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:20:15Z" name="setUp" finished-at="2020-01-20T04:20:21Z" duration-ms="5354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(java.lang.String)[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:20:21Z" name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes" description="The form is not submitted when Email address input field contains invalid mailboxes" data-provider="invalid_emails" finished-at="2020-01-20T04:20:22Z" duration-ms="1030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email@domain..com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:20:22Z" name="tearDown" finished-at="2020-01-20T04:20:22Z" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:20:22Z" name="setUp" finished-at="2020-01-20T04:20:23Z" duration-ms="1624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(java.lang.String)[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:20:23Z" name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes" description="The form is not submitted when Email address input field contains invalid mailboxes" data-provider="invalid_emails" finished-at="2020-01-20T04:20:24Z" duration-ms="1000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:20:24Z" name="tearDown" finished-at="2020-01-20T04:20:25Z" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:20:25Z" name="setUp" finished-at="2020-01-20T04:20:26Z" duration-ms="1814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(java.lang.String)[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:20:26Z" name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes" description="The form is not submitted when Email address input field contains invalid mailboxes" data-provider="invalid_emails" finished-at="2020-01-20T04:20:32Z" duration-ms="5834" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.@example.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.codeborne.selenide.ex.ElementShouldNot">
+            <message>
+              <![CDATA[Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}
+Element: '<div class="freebirdFormviewerViewResponseConfirmationMessage">Вашу відповідь було записано.</div>'
+Actual value: visible:true
+Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494032450.4.png
+Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494032450.4.html
+Timeout: 4 s.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}
+Element: '<div class="freebirdFormviewerViewResponseConfirmationMessage">Вашу відповідь було записано.</div>'
+Actual value: visible:true
+Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494032450.4.png
+Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494032450.4.html
+Timeout: 4 s.
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:69)
+at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:24)
+at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:10)
+at com.codeborne.selenide.commands.Commands.execute(Commands.java:145)
+at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+at com.sun.proxy.$Proxy12.shouldNotBe(Unknown Source)
+at yola.form.pageobjects.FormPage.assertResponseHasBeenRecordedMessageNotShown(FormPage.java:115)
+at yola.form.tests.FormTest.testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(FormTest.java:180)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+at com.sun.proxy.$Proxy2.stop(Unknown Source)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.codeborne.selenide.ex.ElementShouldNot -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:20:32Z" name="tearDown" finished-at="2020-01-20T04:20:32Z" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:20:32Z" name="setUp" finished-at="2020-01-20T04:20:34Z" duration-ms="2088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(java.lang.String)[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:20:34Z" name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes" description="The form is not submitted when Email address input field contains invalid mailboxes" data-provider="invalid_emails" finished-at="2020-01-20T04:20:35Z" duration-ms="1144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ima Fool@example.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:yola.form.tests.FormTest@52f4410f]" started-at="2020-01-20T04:20:35Z" name="tearDown" finished-at="2020-01-20T04:20:36Z" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- yola.form.tests.FormTest -->
+    </test> <!-- Gradle test -->
+  </suite> <!-- Gradle suite -->
+</testng-results>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Yola Test Form Suite" configfailurepolicy="continue" parallel="false">
+    <test name="/home/natasha/IdeaProjectrs/yola_test_form_automation/src/test/java/yola/form/tests">
+        <classes>
+            <class name="yola.form.tests.FormTest">
+                <methods>
+                    <include name="testFormSubmittedWithAllValidRequiredValues"/>
+                    <include name="testFormNotSubmittedWhenAllRequiredFieldsEmpty"/>
+                    <include name="testFormNotSubmittedWhenOnlyEmailFieldEmpty"/>
+                    <include name="testFormNotSubmittedWhenOnlyMonthValueEmpty"/>
+                    <include name="testFormNotSubmittedWhenOnlyDayValueEmpty"/>
+                    <include name="testFormNotSubmittedWhenOnlyYearValueEmpty"/>
+                    <include name="testFormNotSubmittedWhenOnlyNameFieldEmpty"/>
+                    <include name="testFormNotSubmittedWhenNoneOfCheckboxesMarked"/>
+                    <include name="testFormSubmittedWhenEmailFieldContainsValidMailboxes"/>
+                    <include name="testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes"/>
+                    <include name="testFormSubmittedWithValidNameLength"/>
+                    <include name="testFormNotSubmittedWithInvalidNameLength"/>
+                    <include name="testFormSubmittedWhenOtherCheckboxMarkedWithFilledField"/>
+                    <include name="testFormNotSubmittedWhenOtherCheckboxRelatedFieldEmpty"/>
+                    <include name="testOneCheckboxCanBeMarkedAtOneTime"/>
+                    <include name="testFormSubmittedWithValidMonthValues"/>
+                    <include name="testMoreThanMaxMonthValueIsNotAccepted"/>
+                    <include name="testLessThanMinMonthValueIsNotAccepted"/>
+                    <include name="testFormSubmittedWithValidDayValues"/>
+                    <include name="testMoreThanMaxDayValueIsNotAccepted"/>
+                    <include name="testLessThanMinDayValueIsNotAccepted"/>
+                    <include name="testFormSubmittedWithValidYearValues"/>
+                    <include name="testMoreThanMaxYearValueIsNotAccepted"/>
+                    <include name="testLessThanMinYearValueIsNotAccepted"/>
+                    <include name="testLastFebruaryDayOfLeapYearAccepted"/>
+                    <include name="testLastFebruaryDayOfNotLeapYearIsNotAccepted"/>
+                    <include name="testLastDaysOfSpecialMonthsAreNotAcceptedWhileInput"/>
+                    <include name="testInvalidDateValuesAreNotAcceptedWhileInput"/>
+                    <include name="testZeroAddedBeforeSingleIntegerInput"/>
+                    <include name="testSubmitAnotherResponseLinkOpensNewForm"/>
+                    <include name="testAllInputtedDataClearedAfterPageRefresh"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Gradle suite</th></tr>
+<tr><td><a href="#t0">Gradle test</a></td><td class="num">12</td><td class="num">0</td><td class="num attn">5</td><td class="num">85,894</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Gradle suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Gradle test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="5">yola.form.tests.FormTest</td><td><a href="#m0">testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</a></td><td rowspan="5">1579493967866</td><td rowspan="5">6009</td></tr><tr class="failedeven"><td><a href="#m1">testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</a></td></tr><tr class="failedeven"><td><a href="#m2">testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</a></td></tr><tr class="failedeven"><td><a href="#m3">testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</a></td></tr><tr class="failedeven"><td><a href="#m4">testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</a></td></tr><tr><th colspan="4">Gradle test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="12">yola.form.tests.FormTest</td><td><a href="#m5">testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</a></td><td rowspan="12">1579494023937</td><td rowspan="12">1000</td></tr><tr class="passedeven"><td><a href="#m6">testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</a></td></tr><tr class="passedeven"><td><a href="#m7">testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</a></td></tr><tr class="passedeven"><td><a href="#m8">testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</a></td></tr><tr class="passedeven"><td><a href="#m9">testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</a></td></tr><tr class="passedeven"><td><a href="#m10">testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</a></td></tr><tr class="passedeven"><td><a href="#m11">testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</a></td></tr><tr class="passedeven"><td><a href="#m12">testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</a></td></tr><tr class="passedeven"><td><a href="#m13">testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</a></td></tr><tr class="passedeven"><td><a href="#m14">testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</a></td></tr><tr class="passedeven"><td><a href="#m15">testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</a></td></tr><tr class="passedeven"><td><a href="#m16">testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</a></td></tr></tbody>
+</table>
+<h2>Gradle test</h2><h3 id="m0">yola.form.tests.FormTest#testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>.email@domain.com</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}
+Element: &apos;&lt;div class=&quot;freebirdFormviewerViewResponseConfirmationMessage&quot;&gt;Вашу відповідь було записано.&lt;/div&gt;&apos;
+Actual value: visible:true
+Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579493973613.0.png
+Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579493973613.0.html
+Timeout: 4 s.
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:69)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:24)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:10)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:145)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+	at com.sun.proxy.$Proxy12.shouldNotBe(Unknown Source)
+	at yola.form.pageobjects.FormPage.assertResponseHasBeenRecordedMessageNotShown(FormPage.java:115)
+	at yola.form.tests.FormTest.testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(FormTest.java:180)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 46 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">yola.form.tests.FormTest#testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>email@-domain.com</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}
+Element: &apos;&lt;div class=&quot;freebirdFormviewerViewResponseConfirmationMessage&quot;&gt;Вашу відповідь було записано.&lt;/div&gt;&apos;
+Actual value: visible:true
+Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494007208.2.png
+Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494007208.2.html
+Timeout: 4 s.
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:69)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:24)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:10)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:145)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+	at com.sun.proxy.$Proxy12.shouldNotBe(Unknown Source)
+	at yola.form.pageobjects.FormPage.assertResponseHasBeenRecordedMessageNotShown(FormPage.java:115)
+	at yola.form.tests.FormTest.testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(FormTest.java:180)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 46 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">yola.form.tests.FormTest#testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>email.@domain.com</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}
+Element: &apos;&lt;div class=&quot;freebirdFormviewerViewResponseConfirmationMessage&quot;&gt;Вашу відповідь було записано.&lt;/div&gt;&apos;
+Actual value: visible:true
+Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579493981994.1.png
+Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579493981994.1.html
+Timeout: 4 s.
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:69)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:24)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:10)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:145)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+	at com.sun.proxy.$Proxy12.shouldNotBe(Unknown Source)
+	at yola.form.pageobjects.FormPage.assertResponseHasBeenRecordedMessageNotShown(FormPage.java:115)
+	at yola.form.tests.FormTest.testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(FormTest.java:180)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 46 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">yola.form.tests.FormTest#testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>email@111.222.333.44444444</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}
+Element: &apos;&lt;div class=&quot;freebirdFormviewerViewResponseConfirmationMessage&quot;&gt;Вашу відповідь було записано.&lt;/div&gt;&apos;
+Actual value: visible:true
+Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494015538.3.png
+Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494015538.3.html
+Timeout: 4 s.
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:69)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:24)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:10)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:145)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+	at com.sun.proxy.$Proxy12.shouldNotBe(Unknown Source)
+	at yola.form.pageobjects.FormPage.assertResponseHasBeenRecordedMessageNotShown(FormPage.java:115)
+	at yola.form.tests.FormTest.testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(FormTest.java:180)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 46 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">yola.form.tests.FormTest#testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>.@example.com</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">Element should not be visible {.freebirdFormviewerViewResponseConfirmationMessage}
+Element: &apos;&lt;div class=&quot;freebirdFormviewerViewResponseConfirmationMessage&quot;&gt;Вашу відповідь було записано.&lt;/div&gt;&apos;
+Actual value: visible:true
+Screenshot: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494032450.4.png
+Page source: file:/home/natasha/IdeaProjectrs/yola_test_form_automation/build/reports/tests/1579494032450.4.html
+Timeout: 4 s.
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:69)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:24)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:10)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:145)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+	at com.sun.proxy.$Proxy12.shouldNotBe(Unknown Source)
+	at yola.form.pageobjects.FormPage.assertResponseHasBeenRecordedMessageNotShown(FormPage.java:115)
+	at yola.form.tests.FormTest.testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes(FormTest.java:180)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 46 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">yola.form.tests.FormTest#testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td> </td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">yola.form.tests.FormTest#testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>email@domain@domain.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">yola.form.tests.FormTest#testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>email.domain.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">yola.form.tests.FormTest#testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>email..email@domain.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">yola.form.tests.FormTest#testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Ima Fool@example.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">yola.form.tests.FormTest#testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>plainaddress</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">yola.form.tests.FormTest#testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>#@%^%#$@#$@#.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">yola.form.tests.FormTest#testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>@domain.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">yola.form.tests.FormTest#testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>email@domain</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">yola.form.tests.FormTest#testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>email@domain..com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">yola.form.tests.FormTest#testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>あいうえお@domain.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">yola.form.tests.FormTest#testFormNotSubmittedWhenEmailFieldContainsInvalidMailboxes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>email@domain.com (Joe Smith)</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
