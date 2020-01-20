@@ -220,7 +220,7 @@ public class FormTest {
                 .assertDateFieldContains(Given.MIN_MONTH_VALUE, Given.VALID_SS, Given.VALID_YYYY);
     }
 
-    // Day validation
+        // Day validation
 
     @DataProvider(name = "day_valid_values")
     public static Object[] dayValidValues() {
@@ -258,7 +258,7 @@ public class FormTest {
                 .assertDateFieldContains(Given.VALID_MM, Given.MIN_DAY_VALUE, Given.VALID_YYYY);
     }
 
-    // Year validation
+        // Year validation
 
     @DataProvider(name = "year_valid_values")
     public static Object[] yearValidValues() {
